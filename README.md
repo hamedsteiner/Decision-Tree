@@ -26,7 +26,7 @@ Each instance has 16 features, such as number of different pixels, mean and vari
 
 Download and unzip our [pre-trained model](https://drive.google.com/file/d/1Dnlb875jP-F3vcFHlolcPTXFn4RmnQNr/view?usp=sharing), and then copy them to ```checkpoints/IBCLN```.
 
-<img src='https://miro.medium.com/max/1400/0*ZIVhwk0n7Favn31z'/> Run
+<img src='https://miro.medium.com/max/1400/0*ZIVhwk0n7Favn31z'=20*20/> Run
 
 You can run ```bash test.sh```
 
