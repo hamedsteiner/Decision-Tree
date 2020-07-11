@@ -1,7 +1,7 @@
 **[Classification using Decision Tree]**
 
 
-<img src='imgs/cascading_results.png'/>
+<img src='https://miro.medium.com/max/1400/0*YEwFetXQGPB8aDFV' width="40%" />
 
 
 
@@ -15,8 +15,9 @@
 
 ### Prepare Datasets
 
-Download and unzip our created [dataset](https://drive.google.com/file/d/1YWkm80jWsjX6XwLTHOsa8zK3pSRalyCg/view?usp=sharing ) and images from [Zhang et al.][3], and then copy them to ```datasets/reflection```.
-
+Our Dataset is a mat file, which can be easily read using loadmat command in MATLAB.
+It includes 4000 test, and 16000 training handwritten black-white alphabet letters, totally in 26 classes.
+Each instance has 16 features, such as number of different pixels, mean and variance of the balck pixels in different ways and etc.
 
 
 ### Test
@@ -25,12 +26,7 @@ Download and unzip our created [dataset](https://drive.google.com/file/d/1YWkm80
 
 Download and unzip our [pre-trained model](https://drive.google.com/file/d/1Dnlb875jP-F3vcFHlolcPTXFn4RmnQNr/view?usp=sharing), and then copy them to ```checkpoints/IBCLN```.
 
-- #### Prepare data
-
-Copy image pairs ```T``` and ```I``` you want to test to ```datasets/reflection/testA1``` and ```datasets/reflection/testB``` separately.
-If ```T``` image is not given, the ground truth will be an all black image.
-
-- #### Run
+<img src='https://miro.medium.com/max/1400/0*ZIVhwk0n7Favn31z' width="40%" /> Run
 
 You can run ```bash test.sh```
 
