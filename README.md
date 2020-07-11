@@ -1,7 +1,7 @@
 **[Classification using Decision Tree]**
 
 
-<img src='https://miro.medium.com/max/1400/0*YEwFetXQGPB8aDFV'/>
+<img src='https://miro.medium.com/max/1400/0*YEwFetXQGPB8aDFV' width="40%" />
 
 
 
