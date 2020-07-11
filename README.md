@@ -1,13 +1,13 @@
 **[Classification using Decision Tree]**
 
 
-<img src='imgs/cascading_results.png'/>
+<img src='https://miro.medium.com/max/1400/0*YEwFetXQGPB8aDFV'/>
 
 
 
 ## Introduction
 
-
+<img src='https://miro.medium.com/max/1400/0*ZIVhwk0n7Favn31z'/>
 
 
 
