@@ -1,9 +1,5 @@
-**[Classification using Decision Tree]
+**[Classification using Decision Tree]**
 
-
-**[Single Image Reflection Removal through Cascaded Refinement  ][1]**\
-Chao Li, Yixiao Yang, Kun He, Stephen Lin, John E. Hopcroft\
-[CVPR 2020]
 
 <img src='imgs/cascading_results.png'/>
 
