@@ -11,54 +11,22 @@
 
 
 
-## Quick Start
 
-### Prepare Datasets
+###  Datasets
 
 Our Dataset is a mat file, which can be easily read using loadmat command in MATLAB.
 It includes 4000 test, and 16000 training handwritten black-white alphabet letters, totally in 26 classes.
 Each instance has 16 features, such as number of different pixels, mean and variance of the balck pixels in different ways and etc.
 
 
-### Test
 
-- #### Download Pre-trained Model
+Classifying letter recognition data based on ID3 Algorithm using Decision Tree.
 
-Download and unzip our [pre-trained model](https://drive.google.com/file/d/1Dnlb875jP-F3vcFHlolcPTXFn4RmnQNr/view?usp=sharing), and then copy them to ```checkpoints/IBCLN```.
-
-<img src='https://miro.medium.com/max/1400/0*ZIVhwk0n7Favn31z' width="40%" /> Run
-
-You can run ```bash test.sh```
-
-or equivalently:
-
-```python test.py --dataroot datasets/reflection --name IBCLN --model IBCLN --dataset_mode resize_natural_3  --preprocess "" --no_flip --epoch final --gpu_ids 0```	
-
-
-
-### Train
-
-- #### Prepare data
-
-Make two directories ```trainA1, trainA2``` in ```datasets/reflection``` i.e.
-
-```
-cd datasets/reflection
-mkdir trainA1
-mkdir trainA2
-```
-
-Prepare some images for synthesis. Copy ```T``` and ```R``` images to ```trainA1``` and ```trainA2``` separately.
-
-- #### Run
-
-You can run ```bash train.sh```
-
-or equivalently:
-
-```python train.py --dataroot datasets/reflection --name IBCLN --model IBCLN --dataset_mode resize_natural_3   --no_flip   --gpu_id 0 --display_id -1```
-
-
+- ####First part
+- In the first part, The tree is trained based on Information Gain (IG) criterion.
+- In the second part, The tree is trained based on Gini Index criterion.
+- In the third part, the two attributes with the most IG are swapped and the tree is trained.
+- In the fourth part
 
 
 ## Description of the files in this repository
