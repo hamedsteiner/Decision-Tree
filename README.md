@@ -25,6 +25,10 @@ Using Random Forest, clustered the attributes into K folds, and trained K trees 
 
 
 
+Implemented by two approaches, one using cells(memory consuming), and the other, using nested queries.
+Details in the code!
+
+
 ###  Datasets
 
 The Dataset is a mat file, which can be easily read using loadmat command in MATLAB.
