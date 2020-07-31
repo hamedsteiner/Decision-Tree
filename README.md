@@ -5,7 +5,7 @@
 
 
 
-## Introduction
+
 
 
 
@@ -19,10 +19,10 @@ It includes 4000 test, and 16000 training handwritten black-white alphabet lette
 Each instance has 16 features, such as number of different pixels, mean and variance of the balck pixels in different ways and etc.
 
 
-
+### Introduction
 Classifying letter recognition data based on ID3 Algorithm using Decision Tree.
 
-- ####First part
+- #### First part
 - In the first part, The tree is trained based on Information Gain (IG) criterion.
 - In the second part, The tree is trained based on Gini Index criterion.
 - In the third part, the two attributes with the most IG are swapped and the tree is trained.
