@@ -1,4 +1,4 @@
-**[Classification using Decision Tree]**
+**Classification using Decision Tree From Scratch**
 
 
 <img src='https://miro.medium.com/max/1400/0*YEwFetXQGPB8aDFV' width="40%" />
