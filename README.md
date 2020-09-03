@@ -40,6 +40,6 @@ Each instance has 16 features, such as number of different pixels, mean and vari
 1) ``code/initial_tree.m``: Execute this file to train the Decision Tree based on IG.
 2) ``code/initial_tree_GINI.m``: Execute this file to train the Decision Tree based on Gini index. 
 3) ``code/tree_changed_atts.m``: For the 3rd part
-4) ``code/random_forest.m``: Contains the function that defining the networks and losses.
+4) ``code/random_forest.m``: Contains the 4th part.
 
 
